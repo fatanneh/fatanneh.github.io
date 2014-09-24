@@ -1,0 +1,67 @@
+---
+layout: default
+---
+<script>
+function toggle(item){
+  if( $(item).next().css('display') == 'none' ){
+  $(item).next().css("display","block");
+  }
+  else{
+  $(item).next().css("display","none");
+  }
+}
+$('#menu-list').css('display','inline-block');
+$('#menu-list').click(function(){
+	if ( $('#sidebar').css('top') == '0px' ){
+		if ( $('#sidebar').css('right') == '-200px' ){
+			$('#sidebar').css('right','0px');
+			$('body').css('margin-right','200px');
+		}
+		else{
+			$('#sidebar').css('right','-200px');
+			$('body').css('margin-right','0px');
+		}
+	}
+	else{
+		if ( $('#sidebar').css('visibility') == 'hidden' ){
+				$('#sidebar').css('visibility','visible');
+		}
+		else{
+			$('#sidebar').css('visibility','hidden');
+		}
+	}
+});
+function readmore(){
+document.getElementById("more").style="display:block;";
+document.getElementById("more-button").style="display:none;";
+}
+</script>
+
+<div class="sidebar" id="sidebar">
+<ul class="sidebar-list">
+<li><a class="sidebar-post" href="{{ site.url }}">صفحه آغازین</a>
+<hr />
+{% for post in site.posts reversed %}
+<li>
+	<a class="sidebar-post" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	<hr />
+</li>
+{% endfor %}
+</ul>
+</div>
+
+<div class="post animsition"
+	data-animsition-in="fade-in"
+	data-animsition-in-duration="500"
+	data-animsition-out="fade-out">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+
+</div>

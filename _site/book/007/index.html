@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>عوامل قابل کنترل</title>
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/book/007/">
+    <script src="http://localhost:4000/js/jquery.min.js"></script>
+    <script src="http://localhost:4000/js/jquery.collapsible.js"></script>
+    <script src="http://localhost:4000/js/animsition.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.collapsible').collapsible();
+         $(".animsition").animsition();
+     });
+    </script>
+</head>
+
+
+<body style='-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;'>
+<div>
+
+<div class="site-header">
+
+<div class="wrapper">
+
+<p class="site-title">قلب</p>
+<nav>
+	<p class="navigator show-list" id="menu-list" style="display:none;cursor:pointer;">فهرست</p>
+
+	<a href="/book/006/" class="animsition-link navigator navigator-next" data-animsition-out="fade-out-left">قبلی</a>
+
+
+	<a href="/book/008/" class="animsition-link navigator navigator-prev" data-animsition-out="fade-out-right">بعدی</a>
+
+	
+	
+	
+	
+</nav>
+
+</div>
+
+
+
+</div>
+
+
+<div class="page-content">
+<div class="wrapper">
+	<script>
+function toggle(item){
+  if( $(item).next().css('display') == 'none' ){
+  $(item).next().css("display","block");
+  }
+  else{
+  $(item).next().css("display","none");
+  }
+}
+$('#menu-list').css('display','inline-block');
+$('#menu-list').click(function(){
+	if ( $('#sidebar').css('top') == '0px' ){
+		if ( $('#sidebar').css('right') == '-200px' ){
+			$('#sidebar').css('right','0px');
+			$('body').css('margin-right','200px');
+		}
+		else{
+			$('#sidebar').css('right','-200px');
+			$('body').css('margin-right','0px');
+		}
+	}
+	else{
+		if ( $('#sidebar').css('visibility') == 'hidden' ){
+				$('#sidebar').css('visibility','visible');
+		}
+		else{
+			$('#sidebar').css('visibility','hidden');
+		}
+	}
+});
+function readmore(){
+document.getElementById("more").style="display:block;";
+document.getElementById("more-button").style="display:none;";
+}
+</script>
+
+<div class="sidebar" id="sidebar">
+<ul class="sidebar-list">
+<li><a class="sidebar-post" href="http://localhost:4000">صفحه آغازین</a>
+<hr />
+
+<li>
+	<a class="sidebar-post" href="/book/001/">قلب شما</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/002/">بیماری عروق کرونر قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/003/">بیماری عفونی قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/004/">بیماری دریچه های قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/005/">بیماری های قلبی مادر زادی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/006/">عوامل غیر قابل کنترل</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/007/">عوامل قابل کنترل</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/008/">درد و ناراحتی قفسه سینه</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/009/">تنگی نفس</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/010/">سبکی سر،تعریق و...</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/011/">آریتمی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/012/">MI سکته قلبی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/013/">دیابت و عروق کرونر</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/014/">فشار خون و عروق کرونر</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/015/">پیشگیری</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/016/">سبک زندگی چیست؟</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/017/">تغذیه سالم</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/018%09/">فعالیت جسمی مفید</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/019/">استعمال دخانیات</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/020/">مقابله با استرس</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/021/">تست های آزمایشگاهی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/022/">شرح حال و معاینه</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/023/">هولتر مانیتورینگ</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/024/">رادیوگرافی قفسه سینه  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/025/">نوار قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/026/">اکوکاردیوگرافی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/027/">تست ورزش</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/028/"> آنژیوگرافی </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/030/">تست تیلت  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/031/">مطالعه الکتروفیزیولوژی(EPS)  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/032/"> توصیه های مهم دارویی </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/033/"> وارفارین </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/034/">آسپیرین  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/035/">ادرار آور ها  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/036/"> دیگوگسین   </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/037/"> پلاویکس  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/038/"> نیتروگلیسرین</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/039/">آنژیوپلاستی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/040/">جراحی قلب باز  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/041/">تعبیه پیس میکرز  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/042/"> اپیلیشن </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/043/">پیوند قلب  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/044/">سلول های بنیادی  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/045/">بازتوانی  </a>
+	<hr />
+</li>
+
+</ul>
+</div>
+
+<div class="post animsition"
+	data-animsition-in="fade-in"
+	data-animsition-in-duration="500"
+	data-animsition-out="fade-out">
+
+  <header class="post-header">
+    <h1 class="post-title">عوامل قابل کنترل</h1>
+  </header>
+
+  <article class="post-content">
+    <!-- ezafe kardan tasvir -->
+<ul>
+  <li>بيماري قند </li>
+  <li>فشار خون بالا </li>
+  <li>چاقی</li>
+  <li>عدم تحرک</li>
+  <li>مصرف سیگار</li>
+  <li>بالا بودن كلسترول خون </li>
+  <li>داشتن وزن زياد </li>
+  <li>تنش يا استرس </li>
+  <li>مصرف الکل و قرص‌های ضدبارداری</li>
+</ul>
+
+<p>در این زمینه نتایج پژوهشی که با هدف تعیین تأثیر آموزش بر اصلاح سبک زندگی دانش آموزان دارای اضافه وزن بر روی 95 دانش آموز دارای اضافه وزن مقطع ابتدایی شهر ارومیه در سال 1388 انجام شد نشان داد: آموزشِ تغییر و اصلاح سبک زندگی به دانش آموزان دارای اضافه وزن در سنین ابتدایی می تواند در اصلاح رفتارهای تغذیه‌ای آنان اثر مطلوبی داشته باشد. این اثر در مواردی مانند خوردن هنگام تماشای تلویزیون، خوردن تنقلات، بازی با رایانه هنگام فراغت بیشتر از انجام ورزش در هنگام اوقات فراغت یا ورزش و فعالیت بدنی است.</p>
+
+<p>جهت کاهش خطر به سراغ عوامل خطر آفرین قابل تغيير مي‌رويم. توجه به اینکه مهم است که با تغيير در اين عوامل در حقيقت تغيير در روش و سبک زندگي خود بوجود آورده ايم.</p>
+
+<h2 id="section">بالا بودن كلسترول خون:</h2>
+
+<p>بالا بودن كلسترول خون، يك عامل خطرآفرين و هم عامل بروز بيماري شريان كرونر مي‌باشد. كلسترول بيش از حد معمول در ديواره رگها مي‌نشيند و سبب تنگي عروق كرونر مي‌شود. كنترل كلسترول در خون با كنترل اين ماده در مواد غذايي مصرفي، امكان‌پذير است. جز آنكه پزشك معالج شما نيز گاه براي كاهش ميزان كلسترول در خون، دارو تجويز مي‌نمايد. </p>
+
+<h2 id="section-1">كاهش كلسترول خون:</h2>
+
+<p>اولين اصل براي اين منظور، پناه بردن به يك رژيم غذايي قلب سالم است كه كاستن مقدار چربي، مقدار نمك و كنترل ميزان قند است. متخصصین تغذيه مواد غذايي را تركيبي از پنج گروه اصلي می‌دانند. </p>
+
+<p>رژيم غذايي قلب سالم بايستي بر گونه‌اي باشد كه در ضمن برخورداري از مواد مورد نياز بدن در 5 گروه اصلي، دريافت چربي كلي را به حداقل برساند. </p>
+
+<p onclick="document.getElementById(&quot;more-1&quot;).style=&quot;display:block;&quot;;
+ this.style=&quot;display:none;&quot;;" id="more-button"> بیشتر بدانید </p>
+
+<div id="more-1" class="more">
+كه در اين رابطه مي‌توان بدين نحو عمل نمود:
+کلسترول و چربي اشباع را از غذاي خود حذف كنيد (چربي‌هاي اشباع، چربي‌هاي بد هستند چربي‌هايي كه معمولاً در دماي اطاق به حالت جامد هستند.) و در عوض از مقادير كم چربيهاي غيراشباع يك ظرفيتي یا چند ظرفیتی استفاده نمایید. چربیهای غیراشباع چند ظرفیتی شامل روغن‌های مايع گرفته شده از گل آفتابگردان، ذرت و لوبیا و سویا می‌باشد و چربیهای غیراشباع  یک ظرفیتی شامل روغن‌های مایع گرفته شده از زيتون و بادام زميني مي‌باشد.
+
+شرط اصلی سالم زیستن  داشتن تغذیه صحیح است.
+
+با رعایت دو اصل تنوع و تعادل در برنامه غذایی روزانه می‌توان از دریافت مواد مغذی به میزان کافی، اطمینان پیدا کرد. رعایت تنوع یعنی هر روز از تمام مواد غذایی موجود در گروهای غذایی 5 گانه استفاده کنیم. تعادل به این معنی است که به اندازه بخوریم و از کم خوری یا پرخوری بپرهیزیم.
+
+راهنمای غذایی وسیله‌ای است برای اینکه هر فرد بداند: چه گروه‌های غذایی وجود دارد؟ چه مواد غذایی در هر گروه جای دارد؟ و باید به چه میزان موادغذایی در هر گروه خورده شود؟
+</div>
+
+  </article>
+
+
+</div>
+
+</div>
+</div>
+
+</div>
+</body>
+
+</html>

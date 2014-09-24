@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>سلول های بنیادی  </title>
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/book/044/">
+    <script src="http://localhost:4000/js/jquery.min.js"></script>
+    <script src="http://localhost:4000/js/jquery.collapsible.js"></script>
+    <script src="http://localhost:4000/js/animsition.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.collapsible').collapsible();
+         $(".animsition").animsition();
+     });
+    </script>
+</head>
+
+
+<body style='-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;'>
+<div>
+
+<div class="site-header">
+
+<div class="wrapper">
+
+<p class="site-title">قلب</p>
+<nav>
+	<p class="navigator show-list" id="menu-list" style="display:none;cursor:pointer;">فهرست</p>
+
+	<a href="/book/043/" class="animsition-link navigator navigator-next" data-animsition-out="fade-out-left">قبلی</a>
+
+
+	<a href="/book/045/" class="animsition-link navigator navigator-prev" data-animsition-out="fade-out-right">بعدی</a>
+
+	
+	
+	
+	
+</nav>
+
+</div>
+
+
+
+</div>
+
+
+<div class="page-content">
+<div class="wrapper">
+	<script>
+function toggle(item){
+  if( $(item).next().css('display') == 'none' ){
+  $(item).next().css("display","block");
+  }
+  else{
+  $(item).next().css("display","none");
+  }
+}
+$('#menu-list').css('display','inline-block');
+$('#menu-list').click(function(){
+	if ( $('#sidebar').css('top') == '0px' ){
+		if ( $('#sidebar').css('right') == '-200px' ){
+			$('#sidebar').css('right','0px');
+			$('body').css('margin-right','200px');
+		}
+		else{
+			$('#sidebar').css('right','-200px');
+			$('body').css('margin-right','0px');
+		}
+	}
+	else{
+		if ( $('#sidebar').css('visibility') == 'hidden' ){
+				$('#sidebar').css('visibility','visible');
+		}
+		else{
+			$('#sidebar').css('visibility','hidden');
+		}
+	}
+});
+function readmore(){
+document.getElementById("more").style="display:block;";
+document.getElementById("more-button").style="display:none;";
+}
+</script>
+
+<div class="sidebar" id="sidebar">
+<ul class="sidebar-list">
+<li><a class="sidebar-post" href="http://localhost:4000">صفحه آغازین</a>
+<hr />
+
+<li>
+	<a class="sidebar-post" href="/book/001/">قلب شما</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/002/">بیماری عروق کرونر قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/003/">بیماری عفونی قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/004/">بیماری دریچه های قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/005/">بیماری های قلبی مادر زادی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/006/">عوامل غیر قابل کنترل</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/007/">عوامل قابل کنترل</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/008/">درد و ناراحتی قفسه سینه</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/009/">تنگی نفس</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/010/">سبکی سر،تعریق و...</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/011/">آریتمی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/012/">MI سکته قلبی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/013/">دیابت و عروق کرونر</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/014/">فشار خون و عروق کرونر</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/015/">پیشگیری</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/016/">سبک زندگی چیست؟</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/017/">تغذیه سالم</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/018%09/">فعالیت جسمی مفید</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/019/">استعمال دخانیات</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/020/">مقابله با استرس</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/021/">تست های آزمایشگاهی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/022/">شرح حال و معاینه</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/023/">هولتر مانیتورینگ</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/024/">رادیوگرافی قفسه سینه  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/025/">نوار قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/026/">اکوکاردیوگرافی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/027/">تست ورزش</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/028/"> آنژیوگرافی </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/030/">تست تیلت  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/031/">مطالعه الکتروفیزیولوژی(EPS)  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/032/"> توصیه های مهم دارویی </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/033/"> وارفارین </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/034/">آسپیرین  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/035/">ادرار آور ها  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/036/"> دیگوگسین   </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/037/"> پلاویکس  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/038/"> نیتروگلیسرین</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/039/">آنژیوپلاستی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/040/">جراحی قلب باز  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/041/">تعبیه پیس میکرز  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/042/"> اپیلیشن </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/043/">پیوند قلب  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/044/">سلول های بنیادی  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/045/">بازتوانی  </a>
+	<hr />
+</li>
+
+</ul>
+</div>
+
+<div class="post animsition"
+	data-animsition-in="fade-in"
+	data-animsition-in-duration="500"
+	data-animsition-out="fade-out">
+
+  <header class="post-header">
+    <h1 class="post-title">سلول های بنیادی  </h1>
+  </header>
+
+  <article class="post-content">
+    <!-- kholase anjam shava va tasvir ezafe shavad -->
+<p>هدف از انجام این درمان سلول های بنیادی،تهیه و پیوند نوع خاصی از سلول‌های بنیادی بالغ به بیماران قلبی بود.در روش جدید درمانی بیماری قلبی با سلول‌های بنیادی نیازمند انجام عمل قلب باز است،ابتدا با استفاده از نور لیزر،بافت عضلانی قلب بیمار در ناحیه دچار ایسکمی تحریک میشوند.سپس،سلول های بنیادی اخذ شده از خود فرد به اطراف ناحیه دچار آسیب تزریق می‌شوند تا ضمن تمایز به سول های عضله قلب،منطقه آسیب دیده را ترمیم نمایند.</p>
+
+<p onclick="document.getElementById(&quot;more-1&quot;).style=&quot;display:block;&quot;;
+ this.style=&quot;display:none;&quot;;" id="more-button"> بیشتر بدانید </p>
+
+<div id="more-1" class="more">
+<h2>سلول‌های بنیادی مورد استفاده و شیوه عمل قلب</h2>
+
+<p>مطالعات بالینی ما برای بررسی کارایی روش درمانی سول های بنیادی برای بیماران قلبی در ترمیم ضایعات عضله قلب،تاکنون بر روی هشت بیمار دچار ایسکمی عضله قلب انجام شده است.در روش‌های سلول‌های بنیادی که در نوع خود شیوه جدیدی از پیوند سلول‌های بنیادی بیماران قلبی محسوب میشود،از سلول‌های بنیادی بالغ رده ی +ACC133 که از مغز استخوان(Bone Marrow)خود بیمار جداسازی می شود،استفاده میگردد.در شیوه مذکور،کل مراحل نمونه گیری(آسپیراسیون)از مغز استخوان بیمار،جدا سازی +ACC133 و تزریق آن‌ها به ناحیه ایسکمیک عضله قلب،در مدت زمانی حدود ۳ ساعت قابل انجام است.</p>
+<p>لازم به ذکر است که در روش درمانی سلول‌های بنیادی برای بیماران قلبی،نمونه مغز استخوان،پس از بیهوشی بیمار در اتاق عمل و از استخوان‌های لگن تهیه میشود.حجم نمونه مغز استخوان گرفته شده در این مرحله فاکتور مهمی است که تعداد نهایی سلول‌های بنیادی +ACC133 را تعیین میکند.پس از این مرحله،سلول های بنیادی مورد نظر با استفاده از کیت های خاصی از نمونه آسپیره مغز استخوان جداسازی می‌شود و به روش ترانس اپی کاردیال(از بیرون عضله قلبی)به نقاط متعدد اطراف ناحیه ایسکمیک قلب تزریق میشود.</p>
+
+
+<h2> استفاده از لیزر در روش‌های درمانی سلول‌های بنیادی</h2>
+
+<p>استفاده از لیزر در روش درمانی سلول‌های بنیادی برای بیماران قلبی به علت توان آن در ایجاد واکنش التهابی(inflammation)موقت در بافت و افزایش خون رسانی به ناحیه دچار آسیب است.در واقع قبل از تزریق سلول‌های بنیادی به ناحیه ایسکمیک قلب،جهت تحریک خونرسانی به آن ناحیه و زنده نگهداشتن سلول‌های بنیادی تزریق شده،از خاصیت التهاب زایی موقت لیزر به عنوان یک عامل کمکی در ترمیم سریعتر ناحیه استفاده میشود.در این عمل ابتدا به کمک لیزر حدود ۱۵ تا ۲۰  حفره در عضله قلب ایجاد شده و سپس سلول‌های بنیادی به اطراف ناحیه دچار ایسکمی تزریق میشوند.بنابراین،لیزر در روش درمانی بیماران قلبی با سلول‌های بنیادی ،فقط به عنوان یک عامل تقویت کننده(Booster)برای افزایش جریان خون استفاده میشود.</p>
+
+
+<h2>مزایای استفاده از لیزر در روش درمانی سلول‌های بنیادی بیماری قلبی</h2>
+
+<p>روش مورد استفاده در این نوع عمل پیوند،در مقایسه با شیوه‌های دیگر پیوند سلول‌های بنیادی به بیماران قلبی،از ویژگی‌ها و مزایای زیادی برخوردار است که مهمترین آن‌ها به شرح زیر است:</p>
+
+<p>با توجه به اینکه کلیه مراحل استخراج و پیوند سلول‌ها بنیادی در مدت زمان حدود ۳ ساعت قابل انجام است،بنابراین مدت ماندن بیمار در اتاق عمل به میزان قابل توجهی کوتاهتر است.</p>
+
+<p>استفاده از کیت ویژه جداسازی سلول‌های بنیادی در یک سیستم بسته و استریل،عملا نیاز به آزمایشگاهای مجهز و پیشرفته با استاندارد های خاص(GMP lab)را مرتفع میکند.اینکار با بالا بردن ضریب ایمنی کار،احتمال انتقال آلودگی و عفونت به بیمار را منتفی می سازد.</p>
+
+<p>تمام مراحل تهیه نمونه مغز استخوان،جداسازی سلول‌های بنیادی و پیوند آن ها،در اتاق عمل و صرفاً توسط خود جراح قلب صورت میگیرد،بنابراین با استفاده از این شیوه نیازی به همکاری گروه دیگری از متخصصان مانند هماتولوژیست ها و غیره نیست.</p>
+
+<p> با توجه به اینکه در روش درمان بیماران قلبی با سلول‌های بنیادی علاوه بر تزریق سلول‌های بنیادی به اطراف عضله دچار عارضه،از خاصیت هم افزایی نور لیزر نیز استفاده میشود،در نتیجه التهاب موقت ایجاد شده ناشی از تابش نور لیزر،خونرسانی به ناحیه ایسکمیک قلب و تزریق شده،اقزایس می‌یابد و با این کار،احتمال موفقیت در پیوند های سلول‌های بنیادیی و زنده ماند سلول‌های بنیادی پیوندی افزایش می یابد. </p>
+</div>
+
+  </article>
+
+
+</div>
+
+</div>
+</div>
+
+</div>
+</body>
+
+</html>

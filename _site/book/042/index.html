@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title> اپیلیشن </title>
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/book/042/">
+    <script src="http://localhost:4000/js/jquery.min.js"></script>
+    <script src="http://localhost:4000/js/jquery.collapsible.js"></script>
+    <script src="http://localhost:4000/js/animsition.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.collapsible').collapsible();
+         $(".animsition").animsition();
+     });
+    </script>
+</head>
+
+
+<body style='-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;'>
+<div>
+
+<div class="site-header">
+
+<div class="wrapper">
+
+<p class="site-title">قلب</p>
+<nav>
+	<p class="navigator show-list" id="menu-list" style="display:none;cursor:pointer;">فهرست</p>
+
+	<a href="/book/041/" class="animsition-link navigator navigator-next" data-animsition-out="fade-out-left">قبلی</a>
+
+
+	<a href="/book/043/" class="animsition-link navigator navigator-prev" data-animsition-out="fade-out-right">بعدی</a>
+
+	
+	
+	
+	
+</nav>
+
+</div>
+
+
+
+</div>
+
+
+<div class="page-content">
+<div class="wrapper">
+	<script>
+function toggle(item){
+  if( $(item).next().css('display') == 'none' ){
+  $(item).next().css("display","block");
+  }
+  else{
+  $(item).next().css("display","none");
+  }
+}
+$('#menu-list').css('display','inline-block');
+$('#menu-list').click(function(){
+	if ( $('#sidebar').css('top') == '0px' ){
+		if ( $('#sidebar').css('right') == '-200px' ){
+			$('#sidebar').css('right','0px');
+			$('body').css('margin-right','200px');
+		}
+		else{
+			$('#sidebar').css('right','-200px');
+			$('body').css('margin-right','0px');
+		}
+	}
+	else{
+		if ( $('#sidebar').css('visibility') == 'hidden' ){
+				$('#sidebar').css('visibility','visible');
+		}
+		else{
+			$('#sidebar').css('visibility','hidden');
+		}
+	}
+});
+function readmore(){
+document.getElementById("more").style="display:block;";
+document.getElementById("more-button").style="display:none;";
+}
+</script>
+
+<div class="sidebar" id="sidebar">
+<ul class="sidebar-list">
+<li><a class="sidebar-post" href="http://localhost:4000">صفحه آغازین</a>
+<hr />
+
+<li>
+	<a class="sidebar-post" href="/book/001/">قلب شما</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/002/">بیماری عروق کرونر قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/003/">بیماری عفونی قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/004/">بیماری دریچه های قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/005/">بیماری های قلبی مادر زادی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/006/">عوامل غیر قابل کنترل</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/007/">عوامل قابل کنترل</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/008/">درد و ناراحتی قفسه سینه</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/009/">تنگی نفس</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/010/">سبکی سر،تعریق و...</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/011/">آریتمی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/012/">MI سکته قلبی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/013/">دیابت و عروق کرونر</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/014/">فشار خون و عروق کرونر</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/015/">پیشگیری</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/016/">سبک زندگی چیست؟</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/017/">تغذیه سالم</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/018%09/">فعالیت جسمی مفید</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/019/">استعمال دخانیات</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/020/">مقابله با استرس</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/021/">تست های آزمایشگاهی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/022/">شرح حال و معاینه</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/023/">هولتر مانیتورینگ</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/024/">رادیوگرافی قفسه سینه  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/025/">نوار قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/026/">اکوکاردیوگرافی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/027/">تست ورزش</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/028/"> آنژیوگرافی </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/030/">تست تیلت  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/031/">مطالعه الکتروفیزیولوژی(EPS)  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/032/"> توصیه های مهم دارویی </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/033/"> وارفارین </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/034/">آسپیرین  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/035/">ادرار آور ها  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/036/"> دیگوگسین   </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/037/"> پلاویکس  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/038/"> نیتروگلیسرین</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/039/">آنژیوپلاستی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/040/">جراحی قلب باز  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/041/">تعبیه پیس میکرز  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/042/"> اپیلیشن </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/043/">پیوند قلب  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/044/">سلول های بنیادی  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/045/">بازتوانی  </a>
+	<hr />
+</li>
+
+</ul>
+</div>
+
+<div class="post animsition"
+	data-animsition-in="fade-in"
+	data-animsition-in-duration="500"
+	data-animsition-out="fade-out">
+
+  <header class="post-header">
+    <h1 class="post-title"> اپیلیشن </h1>
+  </header>
+
+  <article class="post-content">
+    <!-- tasvir -->
+<p>امروزه از روش تخریب با استفاده از کاتتر (اپیلیشن)به طور گسترده ای  برای درمان انواع تاکی کاردی(ضربان سریع قلب)دهلیزی،مثل فیبریلاسیون دهلیزی،فلوتر دهلیزی و تاکی کاردی دهلیزی و برخی از انواع تاکی کاردی بطنی استفاده میشود.برای انجام تخریب با کاتتر،الکتروفیزیولوژيست(پزشک متخصص تشخیص و درمان آریتمی ها)یک یا چند کاتتر که در انتهای خود الکترود دارند را وارد حفرات قلب میکند و از نوعی انرژی(معمولا امواج رادیویی)برای نابود کردن(تخریب)بافت غیر طبیعی قلب که باعث ایجاد پیام‌های الکتریکی اضافی میشود،استفاده می نماید.مساحت ناحیه ای از بافت که تخریب می‌شود خیلی کم است(در حدود یک پنجم اینچ)و در کارکرد کلی قلب هیچ اثری ندارد.یک اسکار(بافت ترمیمی)کوچک و بدون خطر در این ناحیه تشکیل می‌شود و ریتم طبیعی قلب باز میگردد.
+این روش میزان موفقیت بسیار بالایی داشته و عوارض جانبی کمی دارد و به بی هوشی ملایم و بی حسی موضعی نیاز دارد.این روش درد و ناراحتی اندکی دارد و بسیاری از افراد بعد از چند روز به فعالیت معمولی خود برمیگردند.در بیشتر افراد تاکی کاردی مداوا می‌شود و این افراد دیگر نیازی به استفاده از داروهای ضد آریتمی ندارند.</p>
+
+<p onclick="document.getElementById(&quot;more-1&quot;).style=&quot;display:block;&quot;;
+ this.style=&quot;display:none;&quot;;" id="more-button"> بیشتر بدانید </p>
+
+<div id="more-1" class="more">
+<h2>تخریب با کاتتر چگونه انجام میشود؟</h2>
+
+برای افرادیکه قرار است تا تحت روش تخریب با کاتتر قرار بگیرند،پزشک توصیه میکند که چند روز قبل از این عمل مصرف تمام داروهای ضد آریتمی خود را قطع نمایند.در بیمارستان از یک بیهوشی ملایم و بی حسی موضعی استفاده خواهد شد.پزشک یک یا چند برش کوچک در کشاله ران و یک طرف گردن،آرنج ،یا در زیر استخوان ترقوه ایجاد خواهد کرد.سپس پزشک از طریق سرخرگ یا سیاهرگ ها،کاتتر را به سمت قلب میفرستد.این روش با هدایت اشعه ایکس از طریق دستگاه فلوروسکوپی همزمان انجام میشود،بنابراین پزشک میزان پیشرفت  کاتتر در رگ‌ها را به طور مستقیم و همزمان مشاهده میکند.
+سپس لازم است تا یک دوره از تاکی کاردی(افزایش تعداد ضربان قلب)شروع شود تا پزشک تا پزشک دقیقاً معین کند که این آریتمی ها از کجای قلب منشاء میگیرند.با استفاده از ثبت فعالیت الکتریکی داخلی قلب،پزشک نقشه بافتی قلب را ترسیم می نماید تا ناحیه مشکل دار را مشخص نماید.به محض آنکه ناحیه دچار مشکل مشخص شد،کاتتر مخصوص تخریب،در آن محل قرار داده شده،امواج رادیویی ارسال می‌شود و بافت غیر طبیعی قلب تر بین می رود.برای اطمینان از نابودی کامل بافت غیر طبیعی قلب،پزشک ممکن است با استفاده از داروها یا تحریک الکتریکی بررسی نماید که آیا افزایش دوباره ضربان قلب(تاکی کاردی)رخ میدهد یا نه؟اگر تاکی کاردی رخ ندهد،کاتترها خارج می‌شوند.کل این عمل ۲ تا  ۴ ساعت طول میکشد.
+حداقل چند ساعت در بیمارستان حضور خواهید داشت تا پزشکان علایم بهبودی،آریتمی ها،یا خونریزی از محل ورور کاتتر را بررسی نمایند.بعد از این دوره ممکن است شما به خانه رفته یا اینکه در بیمارستان بمانید.
+شما میتوانید فعالیت‌های با شدت متوسط را انجام دهید.تقریبا بلافاصله میتوانید پیاده روی و بالا و پایین رفتن از پله ها را شروع نمایید.بیشتر افراد در عرض چند روز به مدرسه یا سرکار خود برمیگردند.پزشک ممکن است توصیه نماید که ۲ تا ۴ هفته آسپرین مصرف کنید تا خون شما را رقیق نماید و در محل تخریب بافت قلبی،لخته خون تشکیل نشود.بعد از چند هفته باید برای ویزیت پیگیری نزد متخصص الکتروفیزیولوژی مراجعه نمایید.
+عوارض ناشی از تخریب بافتی نادر میباشند،ولی ممکن است بسیار شدید و خطرناک باشند.بسته به نوع آریتمی درمان شده و جایی از قلب که تخریب انجام گرفته است،ممکن است شما دچار بلوک قلبی(که نیازمند ضربان ساز)و یا خونریزی در اطراف قلب بشویید.ولی توجه داشته باشید که احتمال حمله قلبی سکته مغزی و یا ناشی از تخریب بافتی قلبی بسیار کم می باشد.
+در افراد مبتلا به آریتمی فوق بطنی بدون سایر بیماری‌های قلبی،بهبودی کامل تاکی کاردی در بیش از ۹۵ درصد موارد تنها با استفاده از تخریب بافت قلبی با استفاده از کاتتر میسر می شود.در افراد مبتلا به آریتمی های بطنی نیز میزان بهبودی کامل،بالا میباشد.
+در افراد مبتلا به سایر بیماری‌های قلبی مثل حمله پیشین قلبی که منجر به آسیب قلبی شده است یا بیماری‌های عضلانی قلبی،تقریبا همیشه یک دفیبریلاتور داخلی کاشته می‌شود.تخریب با کاتتر باعث می‌شود که تعداد و دفعات فعال شدن دفیبریلاتور داخلی در این افراد کم شود.بعضی اوقات برای رسیدن به درمان قطعی انجام بیش از یک بار تخریب بافتی با استفاده از کاتتر ضروری است.
+</div>
+
+  </article>
+
+
+</div>
+
+</div>
+</div>
+
+</div>
+</body>
+
+</html>

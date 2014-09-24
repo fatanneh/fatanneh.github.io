@@ -1,0 +1,24 @@
+<div class="site-header">
+
+<div class="wrapper">
+
+<p class="site-title">{{ site.title }}</p>
+<nav>
+	<p class="navigator show-list" id="menu-list" style="display:none;cursor:pointer;">فهرست</p>
+{% if page.previous %}
+	<a href="{{ BASE_PATH }}{{ page.previous.url }}" class="animsition-link navigator navigator-next" data-animsition-out="fade-out-left">قبلی</a>
+{% endif %}
+{% if page.next %}
+	<a href="{{ BASE_PATH }}{{ page.next.url }}" class="animsition-link navigator navigator-prev" data-animsition-out="fade-out-right">بعدی</a>
+{% endif %}
+	
+	
+	
+	
+</nav>
+
+</div>
+
+
+
+</div>

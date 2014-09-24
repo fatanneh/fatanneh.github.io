@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>عوامل غیر قابل کنترل</title>
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/book/006/">
+    <script src="http://localhost:4000/js/jquery.min.js"></script>
+    <script src="http://localhost:4000/js/jquery.collapsible.js"></script>
+    <script src="http://localhost:4000/js/animsition.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.collapsible').collapsible();
+         $(".animsition").animsition();
+     });
+    </script>
+</head>
+
+
+<body style='-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;'>
+<div>
+
+<div class="site-header">
+
+<div class="wrapper">
+
+<p class="site-title">قلب</p>
+<nav>
+	<p class="navigator show-list" id="menu-list" style="display:none;cursor:pointer;">فهرست</p>
+
+	<a href="/book/005/" class="animsition-link navigator navigator-next" data-animsition-out="fade-out-left">قبلی</a>
+
+
+	<a href="/book/007/" class="animsition-link navigator navigator-prev" data-animsition-out="fade-out-right">بعدی</a>
+
+	
+	
+	
+	
+</nav>
+
+</div>
+
+
+
+</div>
+
+
+<div class="page-content">
+<div class="wrapper">
+	<script>
+function toggle(item){
+  if( $(item).next().css('display') == 'none' ){
+  $(item).next().css("display","block");
+  }
+  else{
+  $(item).next().css("display","none");
+  }
+}
+$('#menu-list').css('display','inline-block');
+$('#menu-list').click(function(){
+	if ( $('#sidebar').css('top') == '0px' ){
+		if ( $('#sidebar').css('right') == '-200px' ){
+			$('#sidebar').css('right','0px');
+			$('body').css('margin-right','200px');
+		}
+		else{
+			$('#sidebar').css('right','-200px');
+			$('body').css('margin-right','0px');
+		}
+	}
+	else{
+		if ( $('#sidebar').css('visibility') == 'hidden' ){
+				$('#sidebar').css('visibility','visible');
+		}
+		else{
+			$('#sidebar').css('visibility','hidden');
+		}
+	}
+});
+function readmore(){
+document.getElementById("more").style="display:block;";
+document.getElementById("more-button").style="display:none;";
+}
+</script>
+
+<div class="sidebar" id="sidebar">
+<ul class="sidebar-list">
+<li><a class="sidebar-post" href="http://localhost:4000">صفحه آغازین</a>
+<hr />
+
+<li>
+	<a class="sidebar-post" href="/book/001/">قلب شما</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/002/">بیماری عروق کرونر قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/003/">بیماری عفونی قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/004/">بیماری دریچه های قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/005/">بیماری های قلبی مادر زادی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/006/">عوامل غیر قابل کنترل</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/007/">عوامل قابل کنترل</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/008/">درد و ناراحتی قفسه سینه</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/009/">تنگی نفس</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/010/">سبکی سر،تعریق و...</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/011/">آریتمی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/012/">MI سکته قلبی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/013/">دیابت و عروق کرونر</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/014/">فشار خون و عروق کرونر</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/015/">پیشگیری</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/016/">سبک زندگی چیست؟</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/017/">تغذیه سالم</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/018%09/">فعالیت جسمی مفید</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/019/">استعمال دخانیات</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/020/">مقابله با استرس</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/021/">تست های آزمایشگاهی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/022/">شرح حال و معاینه</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/023/">هولتر مانیتورینگ</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/024/">رادیوگرافی قفسه سینه  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/025/">نوار قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/026/">اکوکاردیوگرافی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/027/">تست ورزش</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/028/"> آنژیوگرافی </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/030/">تست تیلت  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/031/">مطالعه الکتروفیزیولوژی(EPS)  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/032/"> توصیه های مهم دارویی </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/033/"> وارفارین </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/034/">آسپیرین  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/035/">ادرار آور ها  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/036/"> دیگوگسین   </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/037/"> پلاویکس  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/038/"> نیتروگلیسرین</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/039/">آنژیوپلاستی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/040/">جراحی قلب باز  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/041/">تعبیه پیس میکرز  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/042/"> اپیلیشن </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/043/">پیوند قلب  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/044/">سلول های بنیادی  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/045/">بازتوانی  </a>
+	<hr />
+</li>
+
+</ul>
+</div>
+
+<div class="post animsition"
+	data-animsition-in="fade-in"
+	data-animsition-in-duration="500"
+	data-animsition-out="fade-out">
+
+  <header class="post-header">
+    <h1 class="post-title">عوامل غیر قابل کنترل</h1>
+  </header>
+
+  <article class="post-content">
+    <ul>
+  <li>تاريخچه خانوادگي (وجود فرد يا افرادي از افراد نزديك خانواده كه سابقه‌ی ابتلاء  به بيماري قلبي و عروقي داشته‌اند.)</li>
+  <li>جنس مذكر (مردها، بیشتر مستعد ابتلاء  به بیماری قلبی- عروقی هستند.)</li>
+  <li>سن (بالاتر از 45 سال): پژوهش ها نشان داده است که تغییرات فیزیولوژیک و ساختمانی سیستم قلب و عروق در سالمندی عبارتند از ضخیم تر شدن دیواره رگ‌ها، کاهش توان استراحت قلب در زمان دیاستول، عدم توانایی افزایش برون‌دهی قلب به صورت مؤثر در زمان انجام فعالیت، و نیز پاسخ‌دهی کمتر عضله قلب به تحریکات سیستم سمپاتیک و آدرنالین، عدم توانایی برقرار نگه داشتن فشار خون در هنگام برخاستن. با ورود به دوران سالمندی، با شیوع بیماری های قلبی عروقی به خصوص انفارکتوس قلبی، افزایش فشار خون مجرد سیستولی، افت فشار خون ارتوستاتیک، تنگی ناشی از کلسیفیه شدن دریچه آئورت، حملات سنکوپناشی از آریتمی های قلبی مانند سندروم سینوس بیمار، وقفه کامل قلبی و فیبریلاسیون دهلیزی مواجه می شویم.</li>
+</ul>
+
+<p>لازم به ذکر است بیماری عروق کرونر شایع ترین علت مرگ در سالمندان است؛ با این حال آریتمی‌های قلبی و بیماری های دریچه ای قلب نیز در این سنین اهمیت ویژه ای دارد و بر کیفیت زندگی و طول عمر آنها تأثیر نامطلوب می گذارد.</p>
+
+<p><img src="/images/sen.jpg" style="display: block; margin-left: auto; margin-right: auto; height: 400px;" /></p>
+
+  </article>
+
+
+</div>
+
+</div>
+</div>
+
+</div>
+</body>
+
+</html>

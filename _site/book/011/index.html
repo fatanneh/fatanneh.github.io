@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>آریتمی</title>
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/book/011/">
+    <script src="http://localhost:4000/js/jquery.min.js"></script>
+    <script src="http://localhost:4000/js/jquery.collapsible.js"></script>
+    <script src="http://localhost:4000/js/animsition.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.collapsible').collapsible();
+         $(".animsition").animsition();
+     });
+    </script>
+</head>
+
+
+<body style='-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;'>
+<div>
+
+<div class="site-header">
+
+<div class="wrapper">
+
+<p class="site-title">قلب</p>
+<nav>
+	<p class="navigator show-list" id="menu-list" style="display:none;cursor:pointer;">فهرست</p>
+
+	<a href="/book/010/" class="animsition-link navigator navigator-next" data-animsition-out="fade-out-left">قبلی</a>
+
+
+	<a href="/book/012/" class="animsition-link navigator navigator-prev" data-animsition-out="fade-out-right">بعدی</a>
+
+	
+	
+	
+	
+</nav>
+
+</div>
+
+
+
+</div>
+
+
+<div class="page-content">
+<div class="wrapper">
+	<script>
+function toggle(item){
+  if( $(item).next().css('display') == 'none' ){
+  $(item).next().css("display","block");
+  }
+  else{
+  $(item).next().css("display","none");
+  }
+}
+$('#menu-list').css('display','inline-block');
+$('#menu-list').click(function(){
+	if ( $('#sidebar').css('top') == '0px' ){
+		if ( $('#sidebar').css('right') == '-200px' ){
+			$('#sidebar').css('right','0px');
+			$('body').css('margin-right','200px');
+		}
+		else{
+			$('#sidebar').css('right','-200px');
+			$('body').css('margin-right','0px');
+		}
+	}
+	else{
+		if ( $('#sidebar').css('visibility') == 'hidden' ){
+				$('#sidebar').css('visibility','visible');
+		}
+		else{
+			$('#sidebar').css('visibility','hidden');
+		}
+	}
+});
+function readmore(){
+document.getElementById("more").style="display:block;";
+document.getElementById("more-button").style="display:none;";
+}
+</script>
+
+<div class="sidebar" id="sidebar">
+<ul class="sidebar-list">
+<li><a class="sidebar-post" href="http://localhost:4000">صفحه آغازین</a>
+<hr />
+
+<li>
+	<a class="sidebar-post" href="/book/001/">قلب شما</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/002/">بیماری عروق کرونر قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/003/">بیماری عفونی قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/004/">بیماری دریچه های قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/005/">بیماری های قلبی مادر زادی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/006/">عوامل غیر قابل کنترل</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/007/">عوامل قابل کنترل</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/008/">درد و ناراحتی قفسه سینه</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/009/">تنگی نفس</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/010/">سبکی سر،تعریق و...</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/011/">آریتمی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/012/">MI سکته قلبی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/013/">دیابت و عروق کرونر</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/014/">فشار خون و عروق کرونر</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/015/">پیشگیری</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/016/">سبک زندگی چیست؟</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/017/">تغذیه سالم</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/018%09/">فعالیت جسمی مفید</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/019/">استعمال دخانیات</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/020/">مقابله با استرس</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/021/">تست های آزمایشگاهی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/022/">شرح حال و معاینه</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/023/">هولتر مانیتورینگ</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/024/">رادیوگرافی قفسه سینه  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/025/">نوار قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/026/">اکوکاردیوگرافی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/027/">تست ورزش</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/028/"> آنژیوگرافی </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/030/">تست تیلت  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/031/">مطالعه الکتروفیزیولوژی(EPS)  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/032/"> توصیه های مهم دارویی </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/033/"> وارفارین </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/034/">آسپیرین  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/035/">ادرار آور ها  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/036/"> دیگوگسین   </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/037/"> پلاویکس  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/038/"> نیتروگلیسرین</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/039/">آنژیوپلاستی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/040/">جراحی قلب باز  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/041/">تعبیه پیس میکرز  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/042/"> اپیلیشن </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/043/">پیوند قلب  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/044/">سلول های بنیادی  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/045/">بازتوانی  </a>
+	<hr />
+</li>
+
+</ul>
+</div>
+
+<div class="post animsition"
+	data-animsition-in="fade-in"
+	data-animsition-in-duration="500"
+	data-animsition-out="fade-out">
+
+  <header class="post-header">
+    <h1 class="post-title">آریتمی</h1>
+  </header>
+
+  <article class="post-content">
+    <!-- agar tasvi mojod bod ezafe shavad -->
+<p>تقریباً در هر ثانیه یک پیام الکتریکی از دهلیز راست قلب منشاء میگیرد.این پیام الکتریکی در قلب منتقل شده و یک ضربان را در قلب به وجود می آورد.یک گروه از سلول‌های اختصاصی در عضله دهلیز راست قلب،تحت عنوان گره سینوسی-دهلیزی(SaAnode)به عنوان ضربان ساز طبیعی قلب عمل میکند.این پیام‌های الکتریکی باید با توالی زمانی دقیقی از ۴ حفره قلب عبور کنند تا به طور منظمی باعث انقباض عضلات شوند و خون را در بدن پمپ کنند.
+هرگونه تغییر در این پیام الکتریکی که باعث اختلال در ریتم منظم قلب شود،اختلال ریتم(آریتمی)نامیده میشود.قلب ممکن است بسیار سریع یا بسیار آهسته و یا با یک الگوی نامنظم بتپد.آریتمی ها در افراد دارای قلب های طبیعی و یا آن‌هایی که بیماری زمینه‌ای دارند،نیز رخ میدهد.گاهی قلب یک ضربان را جا می‌اندازد و یا به آرامی میتپد.این تغییرات مختصر،معمولا بی خطر می‌باشند برخی از افراد آریتمی خفیفی دارند که هرگز مشکلی را به وجود نمی‌آورد با وجود این در برخی آریتمی ها،ممکن است فعالیت پمپاژقلب تحت تأثیر بسیاری قرار بگیرد.همچنین ممکن است آریتمی باعث علایمی مانند تپش قلب(آگاهی از  ضربان غیر طبیعی قلب)،سبکی سر یا افتادن ناگهانی گردد.اگر مبتلا به سایر بیماری‌های قلبی مانند نارسایی قلبی باشید،احتمال مشکل ساز شدن آریتمی بیشتر میشود.</p>
+
+<p onclick="document.getElementById(&quot;more-1&quot;).style=&quot;display:block;&quot;;
+ this.style=&quot;display:none;&quot;;" id="more-button"> بیشتر بدانید </p>
+
+<div id="more-1" class="more">
+برخی افراد با ضربان نامنظم قلب متولد میشوند.سایر بیماری‌های قلبی عروقی مانند فشار خون بالا،بیماری دریچه ای،نارسایی قلبی،یا بیماری‌ سرخرگ کرونری نیز ممکن است باعث آریتمی شوند.دیابت نیز ممکن است باعث ایجاد آریتمی شود.موادی مانند کافئین،دخانیات،الکل،کوکائین،برخی از داروهای تجویز شده توسط پزشک،برخی داروهای ضد سرفه و ضد سرماخوردگی بدون نسخه،قرص های مکمل و برخی از داروهای گیاهی نیز الگوی ضربان قلب را تحت تأثیر قرار میدهند.استرس نیز در برخی از افراد به دلیل آزاد شدن آدرنالین(هورمون استرس)منجر به آریتمی میگردد.ممکن است سطوح اندک یا نامتعادل یون ها نظیر کاهش یا افزایش پتاسیم منجر به آریتمی و یا بدتر شدن آن گردند.پزشک ممکن است با آزمایش های قند خونی این مقدار یون ها زا بررسی نماید تا مطمئن شود که مشکل قابل اصلاحی که منجر به آریتمی شده است وجود ندارد.بنابراین درمان ممکن است شامل تغییر شیوه زندگی و کنترل سایر بیماری ها،مصرف داروی ضد آریتمی،اجتناب از مصرف برخی داروها،روش های غیر جراحی(برای نمونه کارگذاشتن یک ضربان ساز مصنوعی در بدن)باشد که باعث برگشت ضربان طبیعی قلب میشوند.پزشک ممکن است شما را به پزشک متخصص آریتمی موسوم به الکتروفیزیولوژیست ارجاع دهد.
+</div>
+
+  </article>
+
+
+</div>
+
+</div>
+</div>
+
+</div>
+</body>
+
+</html>

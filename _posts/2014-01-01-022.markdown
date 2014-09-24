@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "شرح حال و معاینه"
+categories: ravesh_haye_tashkhisi
+---
+<!-- matlab ezafe shavad -->

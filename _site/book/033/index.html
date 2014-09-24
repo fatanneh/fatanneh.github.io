@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title> وارفارین </title>
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://localhost:4000/book/033/">
+    <script src="http://localhost:4000/js/jquery.min.js"></script>
+    <script src="http://localhost:4000/js/jquery.collapsible.js"></script>
+    <script src="http://localhost:4000/js/animsition.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.collapsible').collapsible();
+         $(".animsition").animsition();
+     });
+    </script>
+</head>
+
+
+<body style='-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;'>
+<div>
+
+<div class="site-header">
+
+<div class="wrapper">
+
+<p class="site-title">قلب</p>
+<nav>
+	<p class="navigator show-list" id="menu-list" style="display:none;cursor:pointer;">فهرست</p>
+
+	<a href="/book/032/" class="animsition-link navigator navigator-next" data-animsition-out="fade-out-left">قبلی</a>
+
+
+	<a href="/book/034/" class="animsition-link navigator navigator-prev" data-animsition-out="fade-out-right">بعدی</a>
+
+	
+	
+	
+	
+</nav>
+
+</div>
+
+
+
+</div>
+
+
+<div class="page-content">
+<div class="wrapper">
+	<script>
+function toggle(item){
+  if( $(item).next().css('display') == 'none' ){
+  $(item).next().css("display","block");
+  }
+  else{
+  $(item).next().css("display","none");
+  }
+}
+$('#menu-list').css('display','inline-block');
+$('#menu-list').click(function(){
+	if ( $('#sidebar').css('top') == '0px' ){
+		if ( $('#sidebar').css('right') == '-200px' ){
+			$('#sidebar').css('right','0px');
+			$('body').css('margin-right','200px');
+		}
+		else{
+			$('#sidebar').css('right','-200px');
+			$('body').css('margin-right','0px');
+		}
+	}
+	else{
+		if ( $('#sidebar').css('visibility') == 'hidden' ){
+				$('#sidebar').css('visibility','visible');
+		}
+		else{
+			$('#sidebar').css('visibility','hidden');
+		}
+	}
+});
+function readmore(){
+document.getElementById("more").style="display:block;";
+document.getElementById("more-button").style="display:none;";
+}
+</script>
+
+<div class="sidebar" id="sidebar">
+<ul class="sidebar-list">
+<li><a class="sidebar-post" href="http://localhost:4000">صفحه آغازین</a>
+<hr />
+
+<li>
+	<a class="sidebar-post" href="/book/001/">قلب شما</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/002/">بیماری عروق کرونر قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/003/">بیماری عفونی قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/004/">بیماری دریچه های قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/005/">بیماری های قلبی مادر زادی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/006/">عوامل غیر قابل کنترل</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/007/">عوامل قابل کنترل</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/008/">درد و ناراحتی قفسه سینه</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/009/">تنگی نفس</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/010/">سبکی سر،تعریق و...</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/011/">آریتمی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/012/">MI سکته قلبی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/013/">دیابت و عروق کرونر</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/014/">فشار خون و عروق کرونر</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/015/">پیشگیری</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/016/">سبک زندگی چیست؟</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/017/">تغذیه سالم</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/018%09/">فعالیت جسمی مفید</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/019/">استعمال دخانیات</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/020/">مقابله با استرس</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/021/">تست های آزمایشگاهی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/022/">شرح حال و معاینه</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/023/">هولتر مانیتورینگ</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/024/">رادیوگرافی قفسه سینه  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/025/">نوار قلب</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/026/">اکوکاردیوگرافی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/027/">تست ورزش</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/028/"> آنژیوگرافی </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/030/">تست تیلت  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/031/">مطالعه الکتروفیزیولوژی(EPS)  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/032/"> توصیه های مهم دارویی </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/033/"> وارفارین </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/034/">آسپیرین  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/035/">ادرار آور ها  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/036/"> دیگوگسین   </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/037/"> پلاویکس  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/038/"> نیتروگلیسرین</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/039/">آنژیوپلاستی</a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/040/">جراحی قلب باز  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/041/">تعبیه پیس میکرز  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/042/"> اپیلیشن </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/043/">پیوند قلب  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/044/">سلول های بنیادی  </a>
+	<hr />
+</li>
+
+<li>
+	<a class="sidebar-post" href="/book/045/">بازتوانی  </a>
+	<hr />
+</li>
+
+</ul>
+</div>
+
+<div class="post animsition"
+	data-animsition-in="fade-in"
+	data-animsition-in-duration="500"
+	data-animsition-out="fade-out">
+
+  <header class="post-header">
+    <h1 class="post-title"> وارفارین </h1>
+  </header>
+
+  <article class="post-content">
+    <!-- tasvir tartib check kholase -->
+<p><img src="/images/varfarin.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 400px;" />
+آن دسته از بیمارانی که دریچه آن ها از نوع فلزی است جهت جلوگیری از ایجاد لخته خون باید قرص وارفارین مصرف کنند.مصرف نکردن آن بیماان را با مشکل بسیار حاد و جدی روبرو خواهد کرد.
+در صورتی که نوع دریچه خوکی یا انسانی باشد نیازی به مصرف وارفارین نیست مگر آن که ریتم قلب نامنظم باشد.البته در دریچه های خوکی هم چند ماه اول بعد از عمل،مصرف وارفارین لازم است.
+این قرص با تاثیر بر روی یک سری از فاکتورهای انعقادی خون،زمان انعقاد آن را افزایش میدهد.تاثیر این دارو را از آزمایشی به نام پروترومبین(PT)و نسبت بین المللی(INR)تعیین میکنند.</p>
+
+<h3 id="pt">آزمایش پی تی (PT)</h3>
+
+<p>مقدار طبیعی PT بین 12-13 ثانیه است.اما در کسانی که وارفارین مصرف میکنند بین 18-25  (بر اساس نوع محل و تعداد دریچه)تنظیم میگردد.</p>
+
+<h2 id="inr">آزمایش آی ان آر(INR)</h2>
+
+<p>مقدار طبعی آن 1 میباشد.در مصرف کنندگان وارفارین بین 2 تا 3.5 تنظیم میگردد.البته بر اساس نوع،محل و تعداد دریچه در افراد مختلف فرق میکند.</p>
+
+<p onclick="document.getElementById(&quot;more-1&quot;).style=&quot;display:block;&quot;;
+ this.style=&quot;display:none;&quot;;" id="more-button"> بیشتر بدانید </p>
+
+<div id="more-1" class="more">
+تا زمانی که در بیمارستان هستید روزانه یکبار آزمایشPT-INR  انجام شود تا مقدار لازم قرص وارفارین مشخص شود.پس از ترخیص،دو روز و سپس یک هفته و بعد دو هفته و در صورت کنترل آن و مشخص شدن مقدار قرص وارفارین،ماهی یک بار انجام این آزمایش کافی است.البته در بعضی از بیماران انجام مکرر این آزمایش با نظر پزشک معالج لازم است.پس هربار آزمایش مقدارPT-INR  را به اطلاع پزشک معالج برسانید.
+مصرف طولانی مدت وارفارین در صورتی که بطور منظم با انجام آزمایش خون همراه باشد و قرص وارفارین بر اساس جواب PT-INR تجویز شود و میزان PT-INR کنترل کنترل گردد هیچ مشکلی ایجاد نخواهد کرد.اما اگر PT-INR را کنترل نکنید و مقدار آن از حد مجاز بالاتر رود و کماکان مقدار وارفارین نیز تغییری نکند و کاهش نیابد،دچار خونریزی های مختلف میشوید و در صورتیکه PT-INR کمتر از حد لازم باشد،امکان لخته شدن دریچه مصنوعی وجود دارد.
+
+### برخی از داروهایی که باعث افزایش PT-INR می‌شوند عبارتند از:
+
+آس‍‍‍‍‍‍پرین-بروفن-ایندومایسین-مفنامیک اسید-داروهای ضد قند-سایمتدین-آلوپرینول-کلوفیبرات-جم فیبروزیل-هپارین-ایزونیازید-متی مازول-مترونیدازول-مصرف مشروبات الکلی-کلرامفنیکل-اریترومایسین-دانازول-دیازوکساید-دکستروتیروکسین-گلوکاگون-هپارین-واکسن آنفولانزا-کتوکنازول-مپریدین-متوتروکساید-متیل دوپا-نالیدیکسیک اسید-نفیدیپین با آدالات-فنیل بوتازون-کینیدین-استرپتوکیناز-هورمون های تیرویید-وراپامیل-ویتامینA-ویتامین E
+
+### برخی از داروهایی که باعث کاهش PT-INR می‌شوند عبارتند از:
+
+قرض های ضد بارداری-کاربامازپین-شربت معده-سیگار-ویتامینK-قرص های ادرار آور-کلروبوتانول-کولسلیرامین-ریفامپین-استروژنها-داروهای ملین
+</div>
+
+<h3 id="section">نکات قابل توجه حین مصرف قرص وارفارین:</h3>
+
+<p>۱. مقدار مصرف دارو بستگی به نظر پزشک شما دارد.پس خودسرانه مقدار آن را کاهش یا افزایش ندهید.</p>
+
+<p>۲. از آنجایی که مقدار مصرف دارو در اشخاص مختلف متفاوت است هیچ‌گاه مقدار مصرفی خود را به دیگری توصیه نکنید.</p>
+
+<p>۳. دارو را همیشه در ساعات معینی از روز مصرف کنید.بهتر است عصر ها باشد.</p>
+
+<p>۴. دارو را دور از دسترس اطفال نگهدارید.</p>
+
+<p>۵. دارو را در ظرف شیشه‌ای و بدور از نور-رطوبت و گرما نگهدارید.</p>
+
+<p>۶. قرص وارفارین را با معده خالی مصرف کنید تا بهت جذب شود.</p>
+
+<p>۷. در صورتی که احتمال فراموش کردن مصرف دارو را میدهید حتماً به یک نفر از اعضای خانواده بسپارید تا به شما یادآوری کند.</p>
+
+<p>۸. در صورتی که مصرف دارو را در یک روز فراموش کردید به محض متوجه شدن در همان روز-دارو را مصرف کنید.اما اگر روز بعد متوجه شدید.مقدار آن را ۲ برابر نکنید.حتما فردای آن روز PT-INR را چک کنید و به پزشک خود اطلاع دهید.</p>
+
+<p>۹. در صورت مصرف هرگونه دارو همزمان با وارفارین حتی قرص های ویتامین حتم با پزشک خود مشورت کنید.(مصرف همزمان وارفارین با ویتامینK مجاز نیست).</p>
+
+<p>۱۰. هنگام کار با وسایلی که ممکن است موجب جراحت-زخم و خونریزی شوند احتیاط لازم را به عمل آورید و به خاطر داشته باشید که در صورت بریدگی-خون شما دیرتر از زمان عادی بند می آید.
+۱۱. کارت شناسایی خود را همیشه به همراه داشته باشید.(کارتی که نوع بیماری-نوع عمل جراحی و نوع دریچه در آن ذکر شده باشد)</p>
+
+<p>۱۲. همزمان با مصرف وارفارین از قرص آسپیرین و بروفن بعنوان مسکن استفاده نکنید.</p>
+
+<p>۱۳. در صورت بروز تب-ابتلا به بیماری خاص-تغییر در رژيم غذایی مانند دیابت و بطورکلی بروز هر اتفاق جدیدی را به پزشک خود یا هر پزشک قابل دسترس دیگری اطلاع دهید.</p>
+
+<p>۱۴. علایم هشدار دهنده افزایشPT-INR که با بروز آن به پزشک خود باید مراجعه نمایید:</p>
+
+<ul>
+  <li>
+    <p>خونریزی از لثه هنگام مسواک زدن</p>
+  </li>
+  <li>
+    <p>وجود مدفوع سیاه رنگ</p>
+  </li>
+  <li>
+    <p>خونریزی زیر جلدی</p>
+  </li>
+  <li>
+    <p>کبودی بی دلیل روی پوست</p>
+  </li>
+  <li>
+    <p>خونریزی بی دلیل از بینی</p>
+  </li>
+  <li>
+    <p>خونریزی شدید و غیر طبیعی در دوران قاعدگی</p>
+  </li>
+  <li>
+    <p>درد یا تورم شکم</p>
+  </li>
+  <li>
+    <p>پیدایش خون در ادرار</p>
+  </li>
+  <li>
+    <p>یبوست شدید</p>
+  </li>
+  <li>
+    <p>سرفه یا خلط خونی</p>
+  </li>
+  <li>
+    <p>سرگیجه</p>
+  </li>
+  <li>
+    <p>سردرد شدید مداوم</p>
+  </li>
+  <li>
+    <p>درد-سفتی یا تورم مفاصل</p>
+  </li>
+  <li>
+    <p>استفراغ خونی</p>
+  </li>
+</ul>
+
+<p><img src="/images/PT.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 400px;" /></p>
+
+  </article>
+
+
+</div>
+
+</div>
+</div>
+
+</div>
+</body>
+
+</html>

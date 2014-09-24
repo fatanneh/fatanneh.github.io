@@ -1,0 +1,151 @@
+---
+layout: default
+---
+
+<div class="home animsition"
+	data-animsition-in="fade-in"
+	data-animsition-in-duration="500"
+	data-animsition-out="fade-out">
+<img class="front-img" src="heart.jpg">
+	<div class="index-desc">
+	توضیحات و اینا
+</div>
+<h1 class="page-heading">فهرست</h1>
+<hr />
+
+<!-- Lists goes here -->
+
+<div class="collapsible" id="nav-section1"><h2>قلب شما</h2></div>
+<div class="collapsible-ul">
+  <ul class="post-list">
+    {% for post in site.categories.ghalbe-shoma reversed %}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="collapsible" id="nav-section1"><h2>بیماری های قلبی</h2></div>
+<div class="collapsible-ul">
+  <ul class="post-list">
+    {% for post in site.categories.bimari_haye_ghalbi reversed %}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="collapsible" id="nav-section1"><h2>عوامل خطر آفرین</h2></div>
+<div class="collapsible-ul">
+  <ul class="post-list">
+    {% for post in site.categories.avamele_khatar_afarin reversed %}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="collapsible" id="nav-section1"><h2>علایم و عوارض</h2></div>
+<div class="collapsible-ul">
+  <ul class="post-list">
+    {% for post in site.categories.alayem_va_avarez reversed %}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="collapsible" id="nav-section1"><h2>پیشگیری</h2></div>
+<div class="collapsible-ul">
+  <ul class="post-list">
+    {% for post in site.categories.pishgiri reversed %}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="collapsible" id="nav-section1"><h2>سبک زندگی سالم</h2></div>
+<div class="collapsible-ul">
+  <ul class="post-list">
+    {% for post in site.categories.sable_zendegi_salem reversed %}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="collapsible" id="nav-section1"><h2>روش های تشخیصی</h2></div>
+<div class="collapsible-ul">
+  <ul class="post-list">
+    {% for post in site.categories.ravesh_haye_tashkhisi reversed %}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="collapsible" id="nav-section1"><h2>درمان های بیماری عروق کرونر</h2></div>
+<div class="collapsible-ul" style="margin-right:15px;">
+  <div class="collapsible" id="nav-section1"><h2>درمان های دارویی</h2></div>
+  <div class="collapsible-ul">
+  <ul class="post-list">
+    {% for post in site.categories.nemidonm reversed %}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+  </div>
+  <div class="collapsible" id="nav-section1"><h2>درمان های غیر دارویی</h2></div>
+<div class="collapsible-ul">
+  <ul class="post-list">
+    {% for post in site.categories.midonm reversed %}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+</div>
+
+
+<div class="collapsible" id="nav-section1"><h2>بازتوانی</h2></div>
+<div class="collapsible-ul">
+  <ul class="post-list">
+    {% for post in site.categories.baztavani reversed %}
+      <li>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+</div>
