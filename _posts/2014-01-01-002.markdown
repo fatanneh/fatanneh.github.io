@@ -5,7 +5,7 @@ categories: bimari_haye_ghalbi
 ---
 
 <audio controls>
-  <source src="{{ site.baseurl }}/voice/horse.mp3" type="audio/mpeg">
+  <source src="{{ site.baseurl }}/voice/cad.mp3" type="audio/mpeg">
   
   مرورگر شما از پخش فایل های چند رسانه ای پشتیبانی نمیکند.
   
@@ -39,7 +39,7 @@ height: 550px;">
 ### فرآیند تشکیل آتروم
 
 <audio controls>
-  <source src="{{ site.baseurl }}/voice/horse.mp3" type="audio/mpeg">
+  <source src="{{ site.baseurl }}/voice/Atrom.mp3" type="audio/mpeg">
   
   مرورگر شما از پخش فایل های چند رسانه ای پشتیبانی نمیکند.
   

@@ -11,7 +11,7 @@ categories: alayem_va_avarez
 <img src="{{ site.baseurl }}/images/fesharsanj.jpg" style="display: block;
 margin-left: auto;
 margin-right: auto;
-height: 400px;">
+">
 
 <p onclick='document.getElementById("more-1").style="display:block;";
  this.style="display:none;";'

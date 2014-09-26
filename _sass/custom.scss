@@ -8,7 +8,12 @@ a, a:hover,a:focus{
 .more{
   display:none;
 }
-#more-button{
+.attention{
+  background-color: #FFD6CF;
+margin-bottom: 28px;
+padding: 10px;
+}
+#more-button,.more-button{
   background-color:lightgray;
   padding:2px 10px;
   color:black;
@@ -18,8 +23,8 @@ a, a:hover,a:focus{
 #more-button:hover{
   cursor: pointer;
 }
-.post-images{
-	display:block;margin-left:auto;margin-right:auto;width:100%;
+article img{
+	display:block;margin-left:auto;margin-right:auto;
 }
 table,td,th{
 	border:1px solid lightgray;
@@ -113,6 +118,13 @@ hr{
 	height:1px;
 }
 @media all and (min-width:600px) {
+	article img{
+	  padding:15px;
+	  border-radius:20px;
+	    .float{
+	      float:left;
+	    }
+	}
 	body{
 		font-family: IRYekan,Arial,sans-serif !important;
 		line-height: 2.3em;
@@ -179,6 +191,7 @@ hr{
 @media all and (max-width:600px) {
   article img{
     width:100% !important;
+    height:auto !important;
   }
 	.big-table{
 		font-size:0.5em;
